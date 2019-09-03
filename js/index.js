@@ -23,6 +23,7 @@ funBusBanner.addEventListener('drag', e => {      funBusBanner.style.transform =
 
 window.addEventListener('load', e => {
 alert('Fully Loaded!');
+e.preventDefault();
 });
 
 window.addEventListener('wheel', e => body.style.backgroundColor = '#FFFFE0')
